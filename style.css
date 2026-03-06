@@ -9,7 +9,8 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#title{
+#title,
+.sub-titles{
     background-color: darkred;
     text-align: center;
     padding: 12px 0;
@@ -21,7 +22,7 @@ body {
 .recipe-list{
     background-color: ghostwhite;
     width: 80vw;
-    height: 100vh;
+    min-height: 100vh;
     padding: 20px 20px;
     margin: 0 auto;
     font-size: 20px;
@@ -46,4 +47,41 @@ body {
 
 .recipe-links:hover{
     background-color: green;
+}
+
+.image-box{
+    width: 700px;
+    margin: 0 auto 10px;
+}
+
+.image-credits{
+    font-size: 12px;
+}
+
+.food-images{
+    width: 700px;
+    height: auto;
+}
+
+.recipe-body{
+    background-color: ghostwhite;
+    width: 80vw;
+    min-height: 50vh;
+    margin: 0 auto;
+}
+
+.recipe-section{
+    margin: 10px 0;
+}
+
+.sub-titles{
+    text-align: left;
+    font-size: 32px;
+    padding: 5px;
+}
+
+.recipe-text{
+    list-style-position: inside;
+    padding: 10px 10px;
+    font-size: 18px;
 }
